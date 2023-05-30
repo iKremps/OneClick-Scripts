@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "storageAccountKey": "bzZ2kcshqbMBxPxKSNaNTi89f5CcW+TgPnu8FP8PKf/OCUX1Q9L7Egk/RGbUumDhddQUvxbffl11+AStCjBelA==",
+        "storageAccountName": "pldevopssacct2",
+        "storageURI": "https://pldevopssacct2.table.core.windows.net/oneclickbuildqueue",
+        "tableName": "oneclickbuildqueue",
+        "storageURIPipeLines": "https://pldevopssacct2.table.core.windows.net/OneClickAPICalls",
+        "tableNamePipelines": "OneClickAPICalls"
+    }
+}
