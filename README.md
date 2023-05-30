@@ -3,6 +3,8 @@ Azure Function App scripts that were utilized in project OneClick. This project 
 
 A majority of these scripts are called via POST requests. An AzureDevOps Pipeline utilizes some of these scripts, where it uses information passed from previous tasks in the pipeline to create the JSON bodies for the POST requests. One of my team members were mainly responsible for creating this Pipeline, but I assisted them when it needed to call my scripts.
 
+For an example of a JSON payload for a specific function, check out the "Example-Payloads" folder. If there is no example for a specific function, then that function does not need to make a POST request to work.
+
 General Overview of each Script:
 
 OneClickJsonUpload: Accepts JSON payload as input. This JSON includes most information that is required for creating a new Azure Environment (RG). The JSON is stored into a table on an Azure storage account. An IP value is chosed from a list of hundreds of IPs and added onto the table entity. This IP is gaurenteed to be unique for the creation of the new Azure Environment.
