@@ -1,7 +1,7 @@
 # OneClick-Scripts
 Azure Function App scripts that were utilized in project OneClick. This project allowed the creation of an entire Azure environment along with essential resources (database/azure functions/key vault/VNET/etc), all with a single POST request. These scripts in this directory were my contribution to the project, all other scripts not included were created by my DevOps team members.
 
-A majority of these scripts are called via POST requests. An AzureDevOps Pipeline utilizes some of these scripts, where it uses information passed from previous tasks in the pipeline to create the JSON bodies for the POST requests.
+A majority of these scripts are called via POST requests. An AzureDevOps Pipeline utilizes some of these scripts, where it uses information passed from previous tasks in the pipeline to create the JSON bodies for the POST requests. One of my team members were mainly responsible for creating this Pipeline, but I assisted them when it needed to call my scripts.
 
 General Overview of each Script:
 
