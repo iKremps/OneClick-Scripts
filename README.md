@@ -19,5 +19,7 @@ DBMigrationDataChange: When the AzureDevOps Pipeline created a new (and empty) C
 
 DataCopyUtility: After Cosmos DB migration and data changes are completed, the default data for the Environment's Azure Storage Account is migrated. This includes Blob Containers, Fileshares, and Tables (can be configured in the JSON payload input).
 
+TenantCatalogEntityCreatorMk2: This script uses information available within the AzureDevOps pipeline, where it will create an entity in an Azure Storage Table. This table holds whose entities hold information regarding a every tenant within a region. This information includes important connection strings and IDs. Since this project creates a new Environment, a new 'Tenant Catalog' entity needs to be created to represent it.
+
 OneClick Email: After the entire OneClick process is completed, an email is sent to the specified address that the environment is ready. This can easily be enhanced/configured differently.
 
