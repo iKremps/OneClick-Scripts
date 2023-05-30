@@ -1,0 +1,9 @@
+{
+    "SourceStorageConnetionString": "DefaultEndpointsProtocol=https;AccountName=pod04devvuorisacct;AccountKey=hRN7fcsUw/41HriOCP8gsSzozUtjD7q4hynMj7Lmx02bU8h/hBom/6wubMSn1+RPUR38H8YpTwXioeciOk7SoA==;EndpointSuffix=core.windows.net",
+    "TargetStorageConnetionString": "DefaultEndpointsProtocol=https;AccountName=pod04prdvuorisacct;AccountKey=fZMTIzpuz65VMghYq3cuY7cK1246rQi+hJEd/yo2c3yeDPaJfSqG5OSfM/5bBldfaclwrS+UthlH+AStxQfVBQ==;EndpointSuffix=core.windows.net",        
+    "SourceStorageAccount": "pod04devvuorisacct",
+    "TargetStorageAccount": "pod04prdvuorisacct",
+    "Containers": false,
+    "FileShares": true,
+    "Tables": false
+}
