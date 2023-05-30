@@ -1,0 +1,11 @@
+{
+    "tenantID": "test",
+    "tenantName": "test",
+    "tenantCode": "test",
+    "storageAccConnectionString": "DefaultEndpointsProtocol=https;AccountName=pod02devcassacct;AccountKey=emr2zV+x7p3ZSgQ9UhCJp4lPsI3h7BEAvvbe8c6ZrVlx64N3hQF232HwK5Ajrp8FzvBkA34dPt6x+ASttPeJuQ==;EndpointSuffix=core.windows.net",
+    "cosmosConnectionString": "AccountEndpoint=https://pod02-dev-cas-csdb.documents.azure.com:443/;AccountKey=wSEujoAqYTsETG7bJ0tNMtsBSHOGBffVRx6RGWFTUAWZWWVTbyAaEs4uycmPnFeq1v3eKYIU58dFACDb9rEwUQ==;",
+    "keyVault": "https://pod02-dev-cas-kv.vault.azure.net/",
+    "serviceBusConnectionString": "POD02-DEV-FRM-ASB-Namespace.servicebus.windows.net",
+    //will only work if this is a connection string to a FRM RG with an existing 'tenantCatalog' table 
+    "commonstorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=pod06devfrmsacct;AccountKey=2X1Dr43AZNlU8yqRWzOgJmm5NzLOUYXmW3sygDPAW3cxjrCxAdld9G99WJgiV04Z1veAUrA+K6nI+AStY52caw==;EndpointSuffix=core.windows.net"
+}
