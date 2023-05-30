@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "SMTP": "neo-3.conectikan.com",
+        "testUsername": "smtpprov-uaabaibhc",
+        "Password": "Partnerlinq6506",
+        "PortNumber": 587,
+        "EnableSsl": false,
+
+        "storageAccountConnectionString": "DefaultEndpointsProtocol=https;AccountName=migrateteststorage;AccountKey=mUm0V2LyhgoC6Ppz4QydQSNAPsEXgPezIrrB5tPEzB5MfndymlZu2pH51Yvk7fLil7ybBhrjBj1am+w+zEemKA==;EndpointSuffix=core.windows.net"
+    }
+}
