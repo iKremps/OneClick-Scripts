@@ -1,0 +1,13 @@
+{   
+    "ProductInitials": "POD",  
+    "Acronym": "EVA",  
+    "AS2required": 1,  
+    "Clientname": "OneClickTest",  
+    "Project": "PartnerLinq",  
+    "Environment": "DEV",  
+    "PODNumber": "03",  
+    "CustomerResource": true,  
+    "Timezone": "Central European Standard Time",  
+    "Region": "westus",  
+    "TesnantId": 1
+}
